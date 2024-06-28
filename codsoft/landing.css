@@ -1,0 +1,175 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:black;
+	background:linear-gradient(rgb(0, 0, 0, 0.5),rgb(0, 0, 0, 0.5)), url("https://pageshack.com/wp-content/uploads/2023/10/best-creative-gym-names.jpg");
+	color: white;
+	background-color:black;
+	
+
+	background-repeat: no-repeat;
+
+}
+
+nav{
+	background: linear-gradient(purple,darkviolet);
+	margin: 0;
+	padding: 20px;
+	color: white;
+	opacity: 0.9;
+
+
+}
+.logo{
+	font-size: 1.4rem;
+	float: inline-end;
+}
+small{
+	background: linear-gradient(purple,white);
+	color: black;
+	font-family: cursive;
+	border-radius:50% 0%;
+	font-size: 0.9rem;
+	padding: 6px;
+	opacity: 0.8;
+	box-shadow: 1px 2px 2px 1px black;
+
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	text-shadow: 2px 2px 2px black;
+	font-family: serif,cursive,sans-serif;
+	font-size: 1.4rem;
+	text-align: left;
+
+
+}
+li{
+	display: inline-flex;
+	inline-size: 100px;
+	text-align: center;
+
+	
+}
+li:hover{
+	background: linear-gradient(white,purple);
+	color: black;
+	padding: 20px;
+	text-shadow: 2px 2px 2px white;
+	border: 2px solid white;
+	box-shadow: 2px 1px 1px black;
+	margin-top: -40px;
+}
+h3{
+	text-align: center;
+	font-size: 1rem;
+     
+}
+button{
+	display: inline-flex;
+	text-align: center;
+	align-content: center;
+	padding: 5px;
+	background: purple;
+	color: lavenderblush;
+	border-radius: 30px;
+	font-size: 20px;
+	margin-left: 240px;
+	border: 1px solid purple;
+}
+p{
+	font-size: 1.2rem;
+	text-align: center;
+}
+.simg{
+	display: ruby;
+	background: black;
+	border: 5px solid black;
+	box-shadow: 15px 10px 10px black;
+	position: static;
+}
+@media only screen and (max-width:800px){
+	body{
+		margin: 0;
+		padding: 0;
+		display: flow;
+	}
+	nav{
+	background: linear-gradient(black,purple,darkviolet);
+	margin: 0;
+	margin-left: 40px;
+	padding: 40px;
+	margin-right: 0px;
+	position: fixed;
+
+	}
+	ul{
+		display: block;
+		margin: 0;
+
+
+	}
+	li{
+		display: block;
+		padding: 0px;
+		margin: 0;
+		inline-size: 500px;
+		font-size: 1rem;
+		text-align: center;
+	}
+	li:hover{
+		padding: 5px;
+		position: fixed;
+		margin-top: 0;
+	}
+	.logo{
+		text-align: center;
+		position: initial;
+
+	}}
+
+   table,tr,td,th{
+   	border: 2px solid black ;
+   	padding: 20px;
+   	background: linear-gradient(purple,darkviolet);
+   	margin-left: 10px;
+  
+   }
+
+  tr, th,td:hover{
+   	padding: 40px;
+
+   }
+   .img2{
+   	float: inline-end;
+   }
+   #img3{
+   	width: 400px;
+   	height: 400px;
+   	margin-top: 0px;
+   	margin-left:10px ;
+   	border: 15px solid purple;
+   	border-radius: 50%;
+
+   }
+   #img3:hover{
+   	width: 300px;
+   	height: 300px;
+   	box-shadow: 4px 2px 2px lavender;
+
+   }
+   #Gallery{
+
+	float: inline-end;
+	height: 400px;
+	width: 400px;
+   }
+   #foot{
+   	margin-top: 20px;
+   	margin-bottom: 20px;
+   	opacity: 0.8;
+   }
+   
+

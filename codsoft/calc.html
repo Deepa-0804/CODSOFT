@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+<body style="background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-mathematics-education-pink-background-picture-image_1176711.jpg);">
+	<div class="cont">
+		<div class="calc">
+			<h1 style="text-align:center;">CALCULATOR</h1>
+			<input type="text" id="output" placeholder="Enter Value...">
+			<div class="btns">
+				
+             	<button onclick="AT_add(1)">1</button>
+				<button onclick="AT_add(2)">2</button>
+				<button onclick="AT_add(3)">3</button>
+				<button onclick="AT_add(4)">4</button>
+				<button onclick="AT_add(5)">5</button>
+				<button onclick="AT_add(6)">6</button>
+				<button onclick="AT_add(7)">7</button>
+				<button onclick="AT_add(8)">8</button>
+                <button onclick="AT_add(9)">9</button>
+                <button onclick="AT_add(0)">0</button>
+                <button onclick="AT_add('+')">+</button>
+                <button onclick="AT_add('-')">-</button>
+                <button onclick="AT_add('*')">*</button>
+                <button onclick="AT_add('/')">/</button>
+                <button onclick="AT_add('%')">%</button>
+                <div style="margin-left: 50px;padding: 20px;">
+                <button style="border-radius:10px" onclick="exe()">=</button>
+                <button style="border-radius:10px" onclick="cancel()">Cancel</button>
+                <button style="border-radius:10px" onclick="cls()">Clear</button>
+            </div>
+            </div>
+        </div>
+            <script type="text/javascript">
+            	var val=document.getElementById("output");//This line retrieves the element with the ID "output" 
+
+            	function AT_add(v){
+            		val.value+=v;
+            	}
+            	function cls(){
+            		val.value="";
+            	}
+            	function exe(){
+            		val.value=eval(val.value);
+            	}
+            	function cancel(){
+            		val.value=val.value.substr(0,val.value.length-1);
+            	}
+            </script>
+
+		</div>
+	</div>
+
+</body>
+</html>
